@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31",
+  "note": "全部为教学虚构记录；waiting_days 是此快照中的连续阻塞天数，不是实时计算。",
+  "tickets": [
+    {"id":"DEMO-101","title":"授权回调验收等待测试环境","owner":"小林","status":"blocked","waiting_days":5,"reason":"测试环境尚未提供可用回调地址","next_step":"核实环境负责人与交付时间；地址就绪后再执行回调验收"},
+    {"id":"DEMO-102","title":"发布检查等待镜像审批","owner":"小周","status":"blocked","waiting_days":3,"reason":"镜像审批未完成","next_step":"查阅审批状态与阻塞原因；不要把查询结果当作审批通过"},
+    {"id":"DEMO-103","title":"工单统计等待字段定义","owner":"小林","status":"blocked","waiting_days":2,"reason":"阻塞天数口径尚未确认","next_step":"确认状态起止时间与时区，再编写统计规则"},
+    {"id":"DEMO-104","title":"权限回归等待测试账号","owner":"小陈","status":"blocked","waiting_days":7,"reason":"缺少普通用户和受限用户两类测试账号","next_step":"列出账号需要的资源范围，申请最小权限测试账号"},
+    {"id":"DEMO-105","title":"CI日志排查等待日志权限","owner":"小周","status":"blocked","waiting_days":1,"reason":"只读日志权限未开通","next_step":"核实项目和作业范围，申请只读访问并记录有效期"},
+    {"id":"DEMO-106","title":"接口错误文案补充","owner":"小林","status":"in-progress","waiting_days":0,"reason":"正在整理常见错误","next_step":"对照实际错误输出补全处理建议"},
+    {"id":"DEMO-107","title":"CLI帮助文案整理","owner":"小陈","status":"in-progress","waiting_days":0,"reason":"正在编写命令示例","next_step":"验证帮助中的每条示例命令"},
+    {"id":"DEMO-108","title":"JSON导出格式定义","owner":"小周","status":"done","waiting_days":0,"reason":"示例格式已确认","next_step":"保留兼容性检查记录"}
+  ]
+}
